@@ -1,0 +1,138 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Visby CF';
+}
+
+header {
+    padding: 25px 85px;
+}
+
+main {
+    height: 100%;
+    padding: 0 37px;
+    gap: 20px;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+main img {
+    width: 460px;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+main a {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 52px;
+    color: #fa4e38;
+}
+
+footer {
+    margin-top: 70px;
+    background: #FA4E38;
+    height: 88px;
+}
+
+footer #icon-go-up {
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+footer span {
+    font-size: 1rem;
+    line-height: 22px;
+    color: #fff;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+@media (max-width: 360px)
+{
+
+    header {
+        padding: 20px 37px;
+    }
+
+    header img {
+        width: 148px;
+        height: 38px;
+    }
+
+    main img {
+        width: 266px;
+    }
+
+    main p {
+        margin-top: 0px;
+    }
+
+    footer {
+        height: 170px;
+        gap: 20px
+    }
+
+    footer img {
+        margin-bottom: 0px;    
+    }
+}
+
+@media (min-width: 768px)
+{
+    body {
+        height: auto;
+    }
+
+    header {
+        padding: 25px 85px;
+    }
+
+    main {
+        gap: 0px;
+    }
+    
+    main h1 {
+        font-size: 3.125rem;
+        margin-top: 96px;
+    }
+
+    main img {
+        width: 460px;
+    }
+
+    main p {
+        margin-top: -50px;
+    }
+    
+    footer {
+        margin-top: 120px;
+        height: 157px;     
+    }
+    
+    footer img {
+        margin-bottom: 20px;    
+    }
+}
